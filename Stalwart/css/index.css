@@ -1,0 +1,241 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header__content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+}
+.header__logo {
+  position: absolute;
+  top: 23px;
+  left: 50px;
+}
+.header__logo h1 {
+  color: #ff0000;
+  font-size: 50px;
+  line-height: 40px;
+}
+.header__logo p {
+  color: white;
+}
+.header__content nav {
+  padding: 20px 40px 20px 0;
+}
+.header__content ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.header__content a {
+  text-decoration: none;
+  color: #29c0ff;
+  padding: 10px;
+}
+.carousel {
+  background-image: url(../images-layout1/banner2.jpg);
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.carousel p:first-child {
+  position: absolute;
+  top: 215px;
+  right: 135px;
+  background-color: rgba(255, 255, 255, 0.466);
+  padding-right: 10px;
+  font-size: 50px;
+  letter-spacing: 5px;
+}
+.carousel p:nth-child(2) {
+  position: absolute;
+  top: 300px;
+  right: 135px;
+  background-color: rgba(255, 255, 255, 0.466);
+  letter-spacing: 5px;
+  padding-right: 10px;
+}
+.carousel p:last-child {
+  position: absolute;
+  top: 330px;
+  right: 135px;
+  background-color: rgba(255, 255, 255, 0.466);
+  padding-right: 10px;
+  letter-spacing: 5px;
+}
+.intro {
+  background-color: #29c0ff;
+  padding: 20px 70px 40px 40px;
+  text-align: justify;
+}
+.intro h1 {
+  display: inline;
+  font-size: 30px;
+  background-color: rgba(255, 255, 255, 0.466);
+}
+.intro p {
+  margin-top: 25px;
+}
+.welcome h1 {
+  text-align: center;
+  font-size: 30px;
+  padding: 20px;
+}
+.welcome > p {
+  text-align: center;
+  margin: auto;
+  max-width: 1280px;
+}
+.welcome__content {
+  padding-top: 5px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 10px 40px 0 40px;
+}
+.welcome__item i {
+  color: #29c0ff;
+  padding: 10px;
+}
+.welcome__item img {
+  width: 100%;
+  display: block;
+}
+.welcome__item h2 {
+  color: #eb5424;
+  font-size: 25px;
+}
+.welcome__item p {
+  padding-left: 37px;
+}
+
+.product {
+  padding: 0 40px;
+}
+.product h1 {
+  font-size: 30px;
+  text-align: center;
+  padding: 20px;
+}
+.product__content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.product__item {
+  width: calc(100% / 3);
+  padding: 5px;
+}
+
+.product__item img {
+  width: 100%;
+}
+.services {
+  padding: 0 40px;
+}
+.services h1 {
+  font-size: 30px;
+  text-align: center;
+  margin: 20px 0;
+}
+.services__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.services__content__left ul {
+  list-style: none;
+}
+.services__content__left li {
+  padding: 5px;
+}
+.services__content__left i {
+  font-size: 20px;
+  color: #29c0ff;
+  padding-right: 5px;
+}
+.services__content__right {
+  background-image: url("../images-layout1/index-serives.jpg");
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 50px;
+}
+.services__content__right p {
+  color: white;
+  font-size: 20px;
+}
+.services__content__right span {
+  font-size: 25px;
+  font-weight: bold;
+  color: #29c0ff;
+  padding-right: 20px;
+}
+.services__item:last-child {
+  margin-top: 20px;
+}
+.services__item h2 {
+  padding: 10px;
+}
+footer {
+  background-color: #282828;
+  padding: 30px 0;
+  margin-top: 30px;
+}
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding: 0 60px;
+}
+.footer__item ul {
+  list-style: none;
+}
+.footer__item {
+  width: calc(100% / 4);
+}
+.footer__item h3 {
+  color: white;
+  margin: 15px 0;
+}
+.footer__item__input {
+  width: 100%;
+}
+.footer__item input {
+  padding: 5px 100px 5px 5px;
+}
+.footer__item button {
+  padding: 5px 15px;
+  text-align: center;
+  background-color: #eb5424;
+  color: white;
+  font-weight: bold;
+  border-radius: 2px;
+}
+.footer__item a {
+  display: block;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.247);
+}
+.footer__item p {
+  color: rgba(255, 255, 255, 0.247);
+}
+.footer__sign {
+  padding: 40px;
+}
+.footer__content .footer__item:nth-child(4) {
+  padding: 40px;
+}
+.footer__item h1 {
+  color: white;
+  margin-bottom: 15px;
+}
+.footer__item span {
+  color: tomato;
+}
